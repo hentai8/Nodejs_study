@@ -1,0 +1,9 @@
+1. Nodejs多线程种类
+
+Node.js 中有三类线程 (child_process 和 cluster 的实现均为进程)
+
+1. event loop的主线程
+
+2. libuv的异步I/O线程池
+
+3. worker_threads的线程
