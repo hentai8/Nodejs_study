@@ -1,0 +1,24 @@
+<!--在浏览器html运行的一个回调的例子-->
+
+<script type="text/javascript">
+
+    function test(a,b,callback) {
+        callback(a,b);
+
+    }
+
+    function num(a,b) {
+        console.log(a+b);
+    }
+
+    //在这个例子中 num就是作为回调函数被传入test中
+    //回调的函数，一般作为最后一个形参出现
+    //比如说 jq 的 $.ajax()
+    //两种回调方法 一种先定义 一种调用的时候定义
+    test(1,2,num);
+    test(1,2,function (a,b) {
+        console.log(a+b);
+    });
+
+
+</script>
