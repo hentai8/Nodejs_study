@@ -1,0 +1,39 @@
+Connecting to pool...123
+Successfully connected to pool
+mining.subscribe {
+  version: 1,
+  name: undefined,
+  publicAddress: 'e1e00db1c52f884eb2e52dd9ff84753f256445cc17f17010d739b6421941c74fe747a2f6628aa8ee2cefa4'
+}
+Subscribing to pool to receive work
+Server sent mining.subscribed message
+mining.subscribed
+{ clientId: 3675, graffiti: 'Iron.Fish.Pool.e5b' }
+Server has identified us as client 3675
+Server sent mining.set_target message
+mining.set_target
+{
+  target: '00000000494cff9a3f4f473f91d116af7382c45e653facfeef85b8f43d9d6b64'
+}
+Server sent mining.notify message
+mining.notify
+{
+  miningRequestId: 10350,
+  header: '00000000000000009e0e020000000000000000000006c9f6fde7eaa2bf8eb8c1f1a56bbfc178366721e49a92d81a99f028d1d68db475ac18338d24d35166cf9dd88e7f0d7676f30b53d3a63f2ae224182da722020000000096f9cf16505c5341e544dfa8a7f9bff3b9229c2ce3ec6019719f28ce5124e91158c41301000000000000000000078c249cbcf6e334ce2eb09efd72909f3f4881e6a33534c10c3ef3dd62ca8f82010000000000007735f8c20000000000000000000000000000000000000000000000000000000000000000'                                                                                                                                            
+}
+new work 00000000494cff9a3f4f473f91d116af7382c45e653facfeef85b8f43d9d6b64 10350 0 H/s
+Server sent mining.notify message
+mining.notify
+{
+  miningRequestId: 10351,
+  header: '00000000000000009e0e020000000000000000000006c9f6fde7eaa2bf8eb8c1f1a56bbfc178366721e49a92d81a99f028d1d68db475ac18338d24d35166cf9dd88e7f0d7676f30b53d3a63f2ae224182da722020000000096f9cf16505c5341e544dfa8a7f9bff3b9229c2ce3ec6019719f28ce5124e91158c41301000000000000000000078d167c044933f7bafdf8d47aaea1dbb1c6e6315a72f4023c106aed89ca8f82010000000000007735f8c20000000000000000000000000000000000000000000000000000000000000000'                                                                                                                                            
+}
+new work 00000000494cff9a3f4f473f91d116af7382c45e653facfeef85b8f43d9d6b64 10351 3.90 MH/s
+Server sent mining.notify message
+mining.notify
+{
+  miningRequestId: 10352,
+  header: '00000000000000009e0e020000000000000000000006c9f6fde7eaa2bf8eb8c1f1a56bbfc178366721e49a92d81a99f028d1d68db475ac18338d24d35166cf9dd88e7f0d7676f30b53d3a63f2ae224182da722020000000096f9cf16505c5341e544dfa8a7f9bff3b9229c2ce3ec6019719f28ce5124e91158c41301000000000000000000078e0897e1b867bd1a3125bb29f3d513fb0c9c5ad14361030ff2dffcb0ca8f82010000000000007735f8c20000000000000000000000000000000000000000000000000000000000000000'                                                                                                                                            
+}
+new work 00000000494cff9a3f4f473f91d116af7382c45e653facfeef85b8f43d9d6b64 10352 3.55 MH/s
+Hashrate... ⣟ 3.43 MH/s (3434166)
