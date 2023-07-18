@@ -39,7 +39,7 @@ function connectToServer() {
     connectToServer();
   });
 }
-while (s < 5) {
+while (s < 4900) {
   connectToServer();
   s++;
 }
