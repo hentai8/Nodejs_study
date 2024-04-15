@@ -1,0 +1,29 @@
+{
+    "destinations": [
+        {
+            "address": "18vu1GSD1NAfQHHhsvwTpTwcVZr7J2P8yMT2GDxhis9r8",
+            "attoAlphAmount": "129788999999999983616",
+            "tokens": [],
+            "lockTime": 0,
+            "message": ""
+        }
+    ],
+    "gas": 20000,
+    "gasPrice": "100000000000",
+    "utxosLimit": 0
+}
+
+{
+    "destinations": [
+        {
+            "address": "17CS1YoiTU3DLqEfcCosz5vaE3mP7FZ5hueUfhMhzqWbV",
+            "attoAlphAmount": "1200000000000000000",
+            "tokens": [],
+            "lockTime": 0,
+            "message": ""
+        }
+    ],
+    "gas": 20000,
+    "gasPrice": "100000000000",
+    "utxosLimit": 0
+}
