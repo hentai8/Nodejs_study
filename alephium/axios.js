@@ -5,7 +5,7 @@ async function getBlocks() {
   let config = {
     method: "get",
     maxBodyLength: Infinity,
-    url: "http://127.0.0.1:12973/blockflow/blocks-with-events/xxx",
+    url: "http://23.20.9.85:12973/blockflow/blocks-with-events/0000000000000136faf21f8d8ad71e9554e0e8dd27b35ca398ae797748817a43",
     headers: {
       "x-api-key":
         "xxx",
@@ -20,7 +20,13 @@ async function getBlocks() {
       return response.data;
     })
     .catch((error) => {
-      console.log("!!!!error", error);
+      
+      // console.log("!!!!error", error);
+      console.log("!!!!error", error.response.status);
+      if (error.response.status === 500) {
+        console.log(`Block  is not exist`);
+        return error;
+      }
       return error;
     });
 }
@@ -32,8 +38,12 @@ async function getBlocks() {
 //   });
 
 async function main() {
-  const info = await getBlocks();
-  console.log(info);
+  try {
+    const info = await getBlocks();
+    console.log("!!!!Error from getBlocks:", info);
+  } catch (error) {
+    console.log("!!!!Error from getBlocks:", error);
+  }
 }
 
 main().catch((error) => {
